@@ -5,3 +5,7 @@ h2{
     width: 400px;
     height: 300px;
 }
+.text{
+    font-style: italic;
+    font-size: medium;
+}
