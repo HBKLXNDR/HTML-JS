@@ -1,0 +1,64 @@
+.Adventure{
+    background: #FDA901FF;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    font-weight: bold;
+    font-family: "Times New Roman", cursive;
+    box-shadow: 10px 10px #464646FF;
+    position: left;
+    line-height: 100px;
+}
+.Bucket{
+    background: #FDA901FF;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    font-weight: bold;
+    font-family: "Times New Roman", cursive;
+    box-shadow: 10px 10px #565656FF;
+    line-height: 100px;
+
+}
+.Cookies{
+    background: #FDA901FF;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    font-weight: bold;
+    font-family: "Times New Roman", cursive;
+    box-shadow: 12px 12px #565656FF;
+    line-height: 100px;
+}
+.Ducks{
+    background: #FDA901FF;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    font-weight: bold;
+    font-family: "Times New Roman", cursive;
+    box-shadow: 10px 10px #9D9D9DFF;
+    line-height: 100px;
+}
+.Eagle{
+    background: #FDA901FF;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    font-weight: bold;
+    font-family: "Times New Roman", cursive;
+    box-shadow: 10px 10px #464646FF;
+    line-height: 100px;
+    border-radius: 5px;
+}
+.Family{
+    background: #FDA901FF;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    font-weight: bold;
+    font-family: "Times New Roman", cursive;
+    box-shadow: 12px 12px #9D9D9DFF;
+    line-height: 100px;
+    border-radius: 5px;
+}
