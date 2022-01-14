@@ -11,7 +11,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     border-style: solid;
-    padding: 5px;
+    padding: 10px;
 }
 .b{
     width: 100px;
@@ -23,7 +23,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     border-style: solid;
-    padding: 5px;
+    padding: 10px;
 
 }
 .c{
@@ -36,7 +36,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     border-style: solid;
-    padding: 5px;
+    padding: 10px;
 }
 .d{
     width: 100px;
@@ -48,11 +48,11 @@ body{
     margin-left: auto;
     margin-right: auto;
     border-style: solid;
-    padding: 5px;
+    padding: 10px;
 }
 .center{
     vertical-align: middle;
-    height: 250px;
+    height: 300px;
     position: absolute;
     top: 0;
     right: 0;
