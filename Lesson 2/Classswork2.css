@@ -1,8 +1,11 @@
-
+body{
+    background:#252525;
+    }
 .a{
     width: 100px;
     text-align: center;
     border-color: #ff6300;
+    color: #ff6300;
     border-width: 3px;
     border-radius: 45px;
     margin-left: auto;
@@ -13,7 +16,8 @@
 .b{
     width: 100px;
     text-align: center;
-    border-color: #ff6300;
+    border-color: #00fbef;
+    color: #00fbef;
     border-width: 3px;
     border-radius: 45px;
     margin-left: auto;
@@ -25,7 +29,8 @@
 .c{
     width: 100px;
     text-align: center;
-    border-color: #ff6300;
+    border-color: #ff3ca8;
+    color: #ff3ca8;
     border-width: 3px;
     border-radius: 45px;
     margin-left: auto;
@@ -36,7 +41,8 @@
 .d{
     width: 100px;
     text-align: center;
-    border-color: #ff6300;
+    border-color: #ff1830;
+    color: #ff1830;
     border-width: 3px;
     border-radius: 45px;
     margin-left: auto;
@@ -44,3 +50,14 @@
     border-style: solid;
     padding: 5px;
 }
+.center{
+    vertical-align: middle;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow: auto;
+    }
