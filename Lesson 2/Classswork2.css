@@ -2,7 +2,7 @@ body{
     background:#252525;
     }
 .a{
-    width: 100px;
+    width: 150px;
     text-align: center;
     border-color: #ff6300;
     color: #ff6300;
@@ -14,7 +14,7 @@ body{
     padding: 10px;
 }
 .b{
-    width: 100px;
+    width: 150px;
     text-align: center;
     border-color: #00fbef;
     color: #00fbef;
@@ -27,7 +27,7 @@ body{
 
 }
 .c{
-    width: 100px;
+    width: 150px;
     text-align: center;
     border-color: #ff3ca8;
     color: #ff3ca8;
@@ -39,7 +39,7 @@ body{
     padding: 10px;
 }
 .d{
-    width: 100px;
+    width: 150px;
     text-align: center;
     border-color: #ff1830;
     color: #ff1830;
