@@ -1,0 +1,65 @@
+#container{
+    height: 900px;
+    width: 500px;
+    background: azure;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around ;
+
+}
+.main{
+    height: 600px;
+    width: 450px;
+    background: azure;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.content{
+    height: 400px;
+    width: 200px;
+    background: #2269bb;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    color: azure;
+    font-size: 18px;
+
+}
+#Uniq{
+    width: 450px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    background: #2269bb;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    font-size: 18px;
+    margin-top: 5px;
+
+}
+.foot{
+    width: 500px;
+    height:200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.Kabobs{
+    height: 150px;
+    width: 120px;
+    background: #16457a;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    font-size: 18px;
+}
+
