@@ -1,63 +1,76 @@
-body{
-    background:#252525;
-    }
-.a{
-    width: 150px;
-    text-align: center;
-    border-color: #ff6300;
-    color: #ff6300;
-    border-width: 3px;
-    border-radius: 45px;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: solid;
-    padding: 10px;
+#container {
+    background: lavender;
+    width: 500px;
+    height: 700px;
+    order: 0;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
-.b{
-    width: 150px;
+
+#header {
+    background: #e6f7b0;
+    width: 450px;
+    height: 100px;
+    order: 1;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
     text-align: center;
-    border-color: #00fbef;
-    color: #00fbef;
-    border-width: 3px;
-    border-radius: 45px;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: solid;
-    padding: 10px;
+    font-size: large;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main {
+    width: 450px;
+    height: 450px;
+    order: 1;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+}
+
+#container > #main {
+    align-items: flex-start;
+    flex-direction: row-reverse;
+}
+
+#menu {
+    background: red;
+    height: 450px;
+    width: 200px;
+    order: 2;
 
 }
-.c{
-    width: 150px;
-    text-align: center;
-    border-color: #ff3ca8;
-    color: #ff3ca8;
-    border-width: 3px;
-    border-radius: 45px;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: solid;
-    padding: 10px;
+
+.post {
+    height: 200px;
+    width: 250px;
+    background: cornflowerblue;
+    order: 2;
+    margin: 10px;
 }
-.d{
-    width: 150px;
-    text-align: center;
-    border-color: #ff1830;
-    color: #ff1830;
-    border-width: 3px;
-    border-radius: 45px;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: solid;
-    padding: 10px;
+#posts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.center{
-    vertical-align: middle;
-    height: 300px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    overflow: auto;
-    }
+
+#footer {
+    width: 450px;
+    height: 100px;
+    background: chocolate;
+    order: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+}

@@ -30,37 +30,47 @@
     height: 450px;
     order: 1;
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-items: stretch;
     text-align: center;
     font-size: large;
     font-style: italic;
-}
-
-#container > #main {
-    align-items: flex-start;
-    flex-direction: row-reverse;
 }
 
 #menu {
     background: red;
     height: 450px;
     width: 200px;
-    order: 2;
+    order: 0;
+
+
 
 }
 
-.post {
+#post1{
     height: 200px;
     width: 250px;
     background: cornflowerblue;
-    order: 2;
-    margin: 10px;
+    order: 0;
+        margin-left: 10px;
+
 }
-#posts{
-    display: flex;
+#post2{
+    height: 200px;
+    width: 250px;
+    background: cornflowerblue;
+    order: 0;
+    margin-left: 10px;
+}
+.posts{
+    display:flex;
     flex-direction: column;
     justify-content: space-between;
+
+
 }
+
+
 
 #footer {
     width: 450px;
