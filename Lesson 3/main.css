@@ -30,16 +30,13 @@
     height: 450px;
     order: 1;
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-around;
     text-align: center;
     font-size: large;
     font-style: italic;
 }
 
-#container > #main {
-    align-items: flex-start;
-    flex-direction: row-reverse;
-}
 
 #menu {
     background: red;
@@ -54,12 +51,12 @@
     width: 250px;
     background: cornflowerblue;
     order: 2;
-    margin: 10px;
 }
 #posts{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-left: 3px;
 }
 
 #footer {
