@@ -1,0 +1,32 @@
+.width810{
+    width: 810px;
+}
+.width608{
+    width: 608px;
+}
+.background{
+    background: #EEEEEEFF;
+}
+.height200{
+    height: 200px;
+    border: solid 1px white;
+}
+.height400{
+    height: 400px;
+}
+.width200{
+    width: 200px;
+}
+.main1{
+    display: flex;
+    flex-direction: row;
+}
+.mainBigger{
+    display: flex;
+
+}
+
+body{
+    width: 810px;
+    height: 800px;
+}
