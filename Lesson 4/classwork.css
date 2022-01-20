@@ -1,0 +1,27 @@
+.header{
+    background: gray;
+    height: 150px;
+    width: 100%;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page{
+    width: 100%;
+    display: grid;
+    height: 100%;
+    background: #2B2B2CFF;
+}
+.button{
+    width: 35px;
+    height: 20px;
+    background: blueviolet;
+}
+.fas.fa-search.fa-lg {
+    color: blueviolet;
+}
+.fas.fa-bars.fa-lg{
+    color: blueviolet;
+
+}
