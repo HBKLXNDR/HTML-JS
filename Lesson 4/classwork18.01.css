@@ -1,0 +1,39 @@
+.width810{
+    width: 810px;
+    justify-content:center ;
+    display: flex;
+    align-items: center;
+}
+.height200{
+    height: 200px;
+    border: solid 1px white;
+
+}
+.width200{
+    width: 200px;
+    justify-content:center ;
+    display: flex;
+    align-items: center;
+}
+.height400{
+    height: 400px;
+    /*border: solid 1px white;*/
+    display: flex;
+}
+.background_black{
+    background: #F0F0F0FF;
+}
+.width610{
+    width: 610px;
+}
+.main{
+    display: flex;
+    /*align-items: flex-start;*/
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
