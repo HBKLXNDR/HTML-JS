@@ -1,0 +1,105 @@
+@media screen and (max-width: 575px){
+    .a{
+        width: 500px;
+        height: 150px;
+        background: gray;
+        box-sizing: border-box;
+        border: 5px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .b{
+        width: 500px;
+        height: 400px;
+        background: gray;
+        box-sizing: border-box;
+        border: 5px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .c{
+        width: 150px;
+        height: 150px;
+        background: gray;
+        box-sizing: border-box;
+        border: 5px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cde{
+        width: 500px;
+        height: 150px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .f{
+        width: 500px;
+        height: 150px;
+        background: gray;
+        box-sizing: border-box;
+        border: 5px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bcdef{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+    .a{
+        width: 750px;
+        height: 250px;
+        background: gray;
+        box-sizing: border-box;
+        border: 10px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .b{
+        width: 750px;
+        height: 500px;
+        background: gray;
+        box-sizing: border-box;
+        border: 10px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .c{
+        width: 250px;
+        height: 250px;
+        background: gray;
+        box-sizing: border-box;
+        border: 10px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cde{
+        width: 750px;
+        height: 250px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .f{
+        width: 750px;
+        height: 250px;
+        background: gray;
+        box-sizing: border-box;
+        border: 10px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bcdef{
+        display: flex;
+        flex-direction: column;
+    }
+}
