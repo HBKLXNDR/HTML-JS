@@ -19,7 +19,8 @@
     justify-content: center;
     align-items: center;
 }
-.h{
+
+.h {
     height: 400px;
     width: 200px;
     box-sizing: border-box;
@@ -29,6 +30,7 @@
     justify-content: center;
     align-items: center;
 }
-.main{
+
+.main {
     display: flex;
 }

@@ -1,1 +1,46 @@
+@media screen and (max-width: 575px){
+    .a{
+        width: 500px;
+        height: 30vh;
+        margin-top: 5vh;
+    }
+    .b{
+        width: 150px;
+        height: 150px;
+    }
+    .h{
+        width: 500px;
+        height: 30vh;
+    }
+    .main{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 767px){
+    .a{
+        width: 700px;
+        height: 30vh;
+        margin-top: 2.5vh;
+    }
+    .b{
+        width: 200px;
+        height: 200px;
+    }
+    .h{
+        width: 700px;
+        height: 30vh;
+        margin-bottom: 2.5vh;
+    }
+    .main{
+        display: flex;
+        justify-content: space-between;
+        width: 700px;
+    }
+
+}
+
+
+
+
 
