@@ -53,11 +53,19 @@
     border-radius: 4px;
 }
 
+#black_button:hover {
+    background: gray;
+}
+
 .button {
     height: 54px;
     width: 163px;
     cursor: pointer;
+    background: white;
+}
 
+button:hover {
+    background: gray;
 }
 
 .top_bar > .right_side_menu {
@@ -88,6 +96,7 @@
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
+    width: 840px;
 }
 
 h2 {
@@ -104,16 +113,18 @@ p {
 .img {
     position: absolute;
     margin-left: -90px;
-    width: 50%;
+    width: 608px;
+    height: 541px;
 }
 
 .right_block {
     align-items: center;
     justify-content: center;
     display: flex;
+    width: 600px;
 }
 
-#start_button {
+.start_button {
     font-size: 16px;
     line-height: 24px;
     background: #F9C600;
@@ -129,6 +140,10 @@ p {
     box-sizing: border-box;
     border-radius: 4px;
     background: white;
+}
+
+#talk_button:hover {
+    background: gray;
 }
 
 .buttons {
@@ -154,18 +169,95 @@ p {
     margin-bottom: 30px;
 }
 
+.icons {
+    margin-bottom: 192px;
+}
+
 .icons_row {
     display: flex;
     justify-content: center;
+    column-gap: 10px;
+
 }
 
 .icon_item {
+    width: 203px;
+    height: 56px;
     cursor: pointer;
+    padding: 10px;
 }
-.bike_block{
+.icon_item:hover{
+    background: #e3d9e0;
+}
+
+
+.bike_block {
     width: 100%;
     height: 494px;
     background: #51CEBC;
     display: flex;
+}
 
+.img_block {
+    width: 50%;
+    display: flex;
+    margin: 56px 0;
+    justify-content: center;
+}
+
+.img_bike {
+    width: 80%;
+    height: 382px;
+}
+
+.text_block {
+    width: 50%;
+    height: 494px;
+    background: #51CEBC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text_block h4 {
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 40px;
+    margin: 114px 121px 35px 20px;
+}
+
+.text_block p {
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px;
+    margin: 0 145px 161px 20px;
+}
+
+.heading_block {
+    width: 711px;
+    margin: 191px auto 57px;
+    display: flex;
+    justify-content: center;
+}
+
+.heading_block h4 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 40px;
+}
+
+.onboard_img_block {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 113px;
+}
+
+.button_only {
+    display: flex;
+    justify-content: center;
 }
