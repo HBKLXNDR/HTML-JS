@@ -56,50 +56,64 @@
 .button {
     height: 54px;
     width: 163px;
+    cursor: pointer;
+
 }
 
 .top_bar > .right_side_menu {
     justify-content: right;
 
 }
-.container{
+
+.container {
     display: flex;
     margin: 100px 0;
+    justify-content: space-between;
+    align-content: space-between;
 }
+
 .left_block h2 {
     font-size: 60px;
     line-height: 64px;
     letter-spacing: 5px;
     color: #0B2330;
+
 }
-.left_block{
-    margin-left: 147px;
+
+.left_block {
+    margin-left: 100px;
     margin-right: 120px;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
 }
-h2{
+
+h2 {
     margin-bottom: 32px;
 }
-p{
+
+p {
     font-size: 22px;
     line-height: 32px;
     color: #375361;
     margin-bottom: 38px;
 }
-.background{
-}
-.img{
+
+.img {
     position: absolute;
-    margin-left: -100px;
+    margin-left: -90px;
+    width: 50%;
 }
-.right_block{
+
+.right_block {
     align-items: center;
     justify-content: center;
     display: flex;
 }
-#start_button{
+
+#start_button {
     font-size: 16px;
     line-height: 24px;
     background: #F9C600;
@@ -107,7 +121,8 @@ p{
     box-sizing: border-box;
     border-radius: 4px;
 }
-#talk_button{
+
+#talk_button {
     font-size: 16px;
     line-height: 24px;
     border: 1px solid #0B2330;
@@ -115,7 +130,42 @@ p{
     border-radius: 4px;
     background: white;
 }
-.buttons{
+
+.buttons {
     display: flex;
     column-gap: 16px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 42px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.h3 {
+    width: 650px;
+    height: 100px;
+    padding: 0;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.icons_row {
+    display: flex;
+    justify-content: center;
+}
+
+.icon_item {
+    cursor: pointer;
+}
+.bike_block{
+    width: 100%;
+    height: 494px;
+    background: #51CEBC;
+    display: flex;
+
 }
