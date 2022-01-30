@@ -1,0 +1,121 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav_menu a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.nav_menu {
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    align-self: center;
+    margin-left: 165px;
+}
+
+.top_bar {
+    display: flex;
+    margin: 16px 32px 15px 36px;
+    justify-content: space-between;
+}
+
+.right_side_menu a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.right_side_menu {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    margin-left: 152px;
+}
+
+#black_button {
+    background: #0B2330;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    box-sizing: border-box;
+    border: 1px solid #0B2330;
+    border-radius: 4px;
+}
+
+.button {
+    height: 54px;
+    width: 163px;
+}
+
+.top_bar > .right_side_menu {
+    justify-content: right;
+
+}
+.container{
+    display: flex;
+    margin: 100px 0;
+}
+.left_block h2 {
+    font-size: 60px;
+    line-height: 64px;
+    letter-spacing: 5px;
+    color: #0B2330;
+}
+.left_block{
+    margin-left: 147px;
+    margin-right: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h2{
+    margin-bottom: 32px;
+}
+p{
+    font-size: 22px;
+    line-height: 32px;
+    color: #375361;
+    margin-bottom: 38px;
+}
+.background{
+}
+.img{
+    position: absolute;
+    margin-left: -100px;
+}
+.right_block{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#start_button{
+    font-size: 16px;
+    line-height: 24px;
+    background: #F9C600;
+    border: 1px solid #F9C600;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+#talk_button{
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid #0B2330;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: white;
+}
+.buttons{
+    display: flex;
+    column-gap: 16px;
+}
