@@ -31,7 +31,7 @@ console.log(CilinderScquare(3.14,5,20));
 
 // task 4
 
-let someArray = ['kek' , 23, 34,232, true, false];
+let someArray = ['Thursday' , 23, 34,232, true, false];
 function ArrayF(someArray){
     for (let n = 0; n<someArray.length; n++){
         console.log(someArray[n]);
@@ -49,7 +49,7 @@ function someP(text){
     }
 }
 
-someP('xD')
+someP(')))')
 
 // task 6
 function someUl(text){
@@ -62,7 +62,7 @@ function someUl(text){
 
 }
 
-someUl('lalala')
+someUl('Ha-ha')
 
 
 // task 7
@@ -76,11 +76,11 @@ function ThreeUl(text){
     document.write('</ul>');
 }
 
-ThreeUl('olololo');
+ThreeUl('Wow');
 
 // task 8
 
-let newArray = [null,"azaza ", true, ' either ', false, NaN];
+let newArray = [1,  " Hi", true, ' Good bye ', false, NaN];
 function ArrayFunct(newArray){
     document.write('<ul>')
     for (let i=0; i<3; i++){
@@ -94,3 +94,13 @@ ArrayFunct(newArray);
 
 //task 9
 
+let SomeArray = [
+    {id: 1, name: 'Kiwi', age: 20},
+    {id: 2, name: 'Passion Fruit', age: 40},
+    {id: 3, name: 'Guava', age: 40}];
+function KekArray(arrayDoc) {
+    for (const arrayDocEl of arrayDoc) {
+        document.write(`<div>${arrayDocEl.id}  : ${arrayDocEl.name} - ${arrayDocEl.age}</div>`);
+    }
+}
+KekArray(SomeArray);
