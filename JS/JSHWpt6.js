@@ -68,4 +68,3 @@ console.log(FletterUpper("good bye, my friend"));
 let capitalize = (strStr) => {
     return strStr.split(' ').map(word=>word.charAt(0).toUpperCase()+word.slice(1)).join(' ');
 };
-// I still do not get this 'map(word=>'  :)
