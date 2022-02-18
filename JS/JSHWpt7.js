@@ -81,13 +81,15 @@ let someExtraArray = [
     new Client(23, 'Baron', 'Bukin', 'baronchik@noemail.com', 380999379999, ['bones']),
     new Client(47, 'Svetlana', 'Bukina', 'krestik@noemail.com',380999379999, ['protein', 'creatin','gainer'] ),
     new Client(7, 'Lena', 'Poleno', 'lenok@noemail.com',380999379999, ['chicken', 'bread'] ),
-    new Client(47, 'Dasha', 'Bukina', 'pestik@noemail.com',380999379999, ['TV', 'sweets','sone useless stuff','laptop' ] ),
-    new Client(47, 'Roman', 'Bukin', 'Rom4ik@noemail.com',380999379999, ['whiskey', 'vodka','cola'] ),
-    new Client(47, 'Zhenya', 'Stepanov', 'vastik@noemail.com',380999379999, ['rum', 'brick',] ),
-    new Client(47, 'Sema', 'Bukin', 'semki@noemail.com',380999379999, ['pencil', 'pen','workbook'] )
+    new Client(87, 'Dasha', 'Bukina', 'pestik@noemail.com',380999379999, ['TV', 'sweets','sone useless stuff','laptop','vine' ] ),
+    new Client(27, 'Roman', 'Bukin', 'Rom4ik@noemail.com',380999379999, ['whiskey', 'vodka','cola'] ),
+    new Client(49, 'Zhenya', 'Stepanov', 'vastik@noemail.com',380999379999, ['rum', 'brick',] ),
+    new Client(99, 'Sema', 'Bukin', 'semki@noemail.com',380999379999, ['pencil', 'pen','workbook'] )
 ];
 console.log(someExtraArray);
 
 // task 6
 
+someExtraArray.sort((a,b) =>a.order.length - b.order.length);
+console.log(someExtraArray);
 
