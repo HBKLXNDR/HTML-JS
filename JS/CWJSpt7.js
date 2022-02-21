@@ -13,23 +13,23 @@ function KarlBenz (model,brand,year,max_speed,engine) {
             if (typeof this[key] !== 'function') console.log(`${key} - ${this[key]}`)
         }
     };
-    this.newMaxSpeed = function (newSpeed) {
+    this.newMaxSpeeder = function (newSpeed) {
         this.max_speed = this.max_speed + newSpeed;
     };
-    this.changeYear = function (newValue) {
+    this.yearChanger = function (newValue) {
         this.year = newValue;
     };
-    this.addDriver = function (driver) {
-        this.driver = driver;
-    };
+    this.engineChanger = function (changeEngine){
+        this.engine = changeEngine;
+    }
 };
-let CarCreator = new KarlBenz('Marcedes-Benz', 'Germany', 2007, 150, 2.5);
+let CarCreator = new KarlBenz('Marcedes-Benz', 'Germany', 2007, 150, 2.0);
 console.log(CarCreator);
 CarCreator.drive();
 CarCreator.info();
-CarCreator.newMaxSpeed(150);
+CarCreator.newMaxSpeeder(150);
 CarCreator.drive();
-CarCreator.changeYear(2019)
+CarCreator.yearChanger(2019);
+CarCreator.engineChanger(2.5);
 CarCreator.info();
-CarCreator.addDriver('Marko');
 console.log(CarCreator);
