@@ -6,7 +6,7 @@ function KarlBenz (model,brand,year,max_speed,engine) {
     this.engine = engine;
 
     this.drive = function () {
-        console.log(`їдемо зі швидкістю ${this.max_speed} на годину`);
+        console.log(`we drive with current speed ${this.max_speed} per hour`);
     };
     this.info = function () {
         for (const key in this) {
