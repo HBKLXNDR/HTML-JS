@@ -38,5 +38,5 @@ CarCreator.newMaxSpeed(150);
 CarCreator.drive();
 CarCreator.changeYear(2019)
 CarCreator.info();
-CarCreator.addDriver('Marko')
+CarCreator.addDriver('Marko');
 console.log(CarCreator);
