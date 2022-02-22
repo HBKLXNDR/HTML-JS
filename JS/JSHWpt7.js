@@ -1,36 +1,37 @@
 // task 1
-   class User {
+class User {
 
-       constructor(id, name, surname, email, number) {
-           this.id = id;
-           this.name = name;
-           this.surname = surname;
-           this.email = email;
-           this.number = number;
-       }
-   }
+    constructor(id, name, surname, email, number) {
+        this.id = id;
+        this.name = name;
+        this.surname = surname;
+        this.email = email;
+        this.number = number;
+    }
+}
 
 
 let someArray =
-[
-    new User(1, 'Alex', 'Pupkin', 'someEmail3@noemail.com', 380991499229),
-    new User(2, 'Misha', 'Mishutkin', 'someEmail3@noemail.com', 380991499228),
-    new User(3, 'Petya', 'Petrov', 'someEmail3@noemail.com', 380991499227),
-    new User(8, 'Naxim', 'Maximov', 'someEmail3@noemail.com', 380991499226),
-    new User(5, 'Andrej', 'Andrejev', 'someEmail3@noemail.com', 380991499225),
-    new User(6, 'Anton', 'Antonov', 'someEmail3@noemail.com', 380991499224),
-    new User(7,'Alexey','Alexeev','someEmail3@noemail.com',380991499223),
-    new User(4,'Vasya','Vasiliev','someEmail3@noemail.com',380991499222),
-    new User(9,'Mark','Markov','someEmail3@noemail.com',380991499221),
-    new User(10,'Viktor','Viktorov','someEmail3@noemail.com',380991499220)
-];
+    [
+        new User(1, 'Alex', 'Pupkin', 'someEmail3@noemail.com', 380991499229),
+        new User(2, 'Misha', 'Mishutkin', 'someEmail3@noemail.com', 380991499228),
+        new User(3, 'Petya', 'Petrov', 'someEmail3@noemail.com', 380991499227),
+        new User(8, 'Naxim', 'Maximov', 'someEmail3@noemail.com', 380991499226),
+        new User(5, 'Andrej', 'Andrejev', 'someEmail3@noemail.com', 380991499225),
+        new User(6, 'Anton', 'Antonov', 'someEmail3@noemail.com', 380991499224),
+        new User(7, 'Alexey', 'Alexeev', 'someEmail3@noemail.com', 380991499223),
+        new User(4, 'Vasya', 'Vasiliev', 'someEmail3@noemail.com', 380991499222),
+        new User(9, 'Mark', 'Markov', 'someEmail3@noemail.com', 380991499221),
+        new User(10, 'Viktor', 'Viktorov', 'someEmail3@noemail.com', 380991499220)
+    ];
 console.log(someArray);
 // task 2
 
 let filter = someArray.filter((something) => {
-    if (something.id % 2 === 0){
-    return something
-    }});
+    if (something.id % 2 === 0) {
+        return something
+    }
+});
 console.log(filter);
 
 // task 3
@@ -41,7 +42,7 @@ console.log(sorter);
 
 // task 4
 
-class Client{
+class Client {
     constructor(id, name, surname, email, phone, order) {
         this.id = id;
         this.name = name;
@@ -55,21 +56,21 @@ class Client{
 // task 5
 
 let someExtraArray = [
-    new Client(54,'Alex','Pupkin','alexpupkin@noemail.com', 380999379999, ['milk','bread','water','juice']),
-    new Client(43,'Gennadiy','Pukin', 'genabukin@noemail.com',380999379999, ['pineapple', 'carrot','beer']),
-    new Client(65,'Anatoliy', 'Poleno','tolipoleno@noemail.com', 380999379999, ['beer', 'chips']),
+    new Client(54, 'Alex', 'Pupkin', 'alexpupkin@noemail.com', 380999379999, ['milk', 'bread', 'water', 'juice']),
+    new Client(43, 'Gennadiy', 'Pukin', 'genabukin@noemail.com', 380999379999, ['pineapple', 'carrot', 'beer']),
+    new Client(65, 'Anatoliy', 'Poleno', 'tolipoleno@noemail.com', 380999379999, ['beer', 'chips']),
     new Client(23, 'Baron', 'Bukin', 'baronchik@noemail.com', 380999379999, ['bones']),
-    new Client(47, 'Svetlana', 'Bukina', 'krestik@noemail.com',380999379999, ['protein', 'creatin','gainer'] ),
-    new Client(7, 'Lena', 'Poleno', 'lenok@noemail.com',380999379999, ['chicken', 'bread'] ),
-    new Client(87, 'Dasha', 'Bukina', 'pestik@noemail.com',380999379999, ['TV', 'sweets','sone useless stuff','laptop','vine' ] ),
-    new Client(27, 'Roman', 'Bukin', 'Rom4ik@noemail.com',380999379999, ['whiskey', 'vodka','cola'] ),
-    new Client(49, 'Zhenya', 'Stepanov', 'vastik@noemail.com',380999379999, ['rum', 'brick',] ),
-    new Client(99, 'Sema', 'Bukin', 'semki@noemail.com',380999379999, ['pencil', 'pen','workbook'] )
+    new Client(47, 'Svetlana', 'Bukina', 'krestik@noemail.com', 380999379999, ['protein', 'creatin', 'gainer']),
+    new Client(7, 'Lena', 'Poleno', 'lenok@noemail.com', 380999379999, ['chicken', 'bread']),
+    new Client(87, 'Dasha', 'Bukina', 'pestik@noemail.com', 380999379999, ['TV', 'sweets', 'sone useless stuff', 'laptop', 'vine']),
+    new Client(27, 'Roman', 'Bukin', 'Rom4ik@noemail.com', 380999379999, ['whiskey', 'vodka', 'cola']),
+    new Client(49, 'Zhenya', 'Stepanov', 'vastik@noemail.com', 380999379999, ['rum', 'brick',]),
+    new Client(99, 'Sema', 'Bukin', 'semki@noemail.com', 380999379999, ['pencil', 'pen', 'workbook'])
 ];
 console.log(someExtraArray);
 
 // task 6
 
-someExtraArray.sort((a,b) =>a.order.length - b.order.length);
+someExtraArray.sort((a, b) => a.order.length - b.order.length);
 console.log(someExtraArray);
 
