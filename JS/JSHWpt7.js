@@ -1,23 +1,3 @@
-// let user = {
-//     id: 1,
-//     name: 'kokos',
-// };
-//
-// user.surname = 'abrikosov';
-// user['age'] = 45;
-// console.log(user);
-
-
-// let obj = {};
-// let fields = ['id', 'name', 'surname'];
-// for (let field of fields) {
-//     console.log(field);
-//     obj[field] = 'xxx'
-// }
-// console.log(obj);
-
-// Створити функцію конструктор для об'єктів User з полями id, name, surname , email, phone
-// створити пустий масив, наповнити його 10 об'єктами new User(....)
 // task 1
    class User {
 
