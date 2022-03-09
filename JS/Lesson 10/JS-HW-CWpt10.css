@@ -11,6 +11,12 @@
     display: none;
     margin-bottom: 30px;
 }
+/*either*/
+/*#menu{*/
+/*    visibility: collapse;*/
+/*}*/
+
+
 #btn_3:hover{
     cursor: pointer;
     transform: scale(1.1);

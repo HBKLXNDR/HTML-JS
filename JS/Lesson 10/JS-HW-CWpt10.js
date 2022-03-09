@@ -35,6 +35,19 @@ clicker3.onclick = () => {
         menu.style.display = "none"
     }
 }
+// either
+// clicker3.onclick = () => {
+//     if (menu.style.visibility !== "visible"){
+//         menu.style.visibility = "visible"
+//         menu.style.transitionDelay = "0.3s"
+//     } else {
+//         menu.style.visibility = "hidden"
+//     }
+//
+// }
+
+
+
 // - Создать список комментариев , пример объекта коментария - {title : 'lorem', body:'lorem ipsum dolo sit ameti'}.
 //     Вывести список комментариев в документ, каждый в своем блоке.
 //     Добавьте каждому комментарию по кнопке для сворачивания его body.
