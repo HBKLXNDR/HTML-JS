@@ -1,5 +1,4 @@
 *{
-    margin: 0;
     padding: 0;
 }
 #age{
@@ -24,4 +23,9 @@
 }
 .margin_bt{
     margin-bottom: 30px;
+}
+.margin_bt:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.1s;
 }
