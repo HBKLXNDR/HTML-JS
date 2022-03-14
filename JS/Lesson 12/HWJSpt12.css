@@ -19,6 +19,9 @@
     cursor: pointer;
     padding: 5px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     color: black;
 }
 .post:hover{
@@ -26,4 +29,31 @@
     transition: 0.3s;
     background: deepskyblue;
     color: white;
+}
+.post h3, p{
+    display: block;
+}
+
+.comment{
+    background: cornsilk;
+    width: 250px;
+    margin: 20px 10px;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: black;
+    cursor: pointer;
+}
+
+.comment:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    background: chocolate;
+    color: cornsilk;
+}
+
+.comment h3, p{
+    display: block;
 }
