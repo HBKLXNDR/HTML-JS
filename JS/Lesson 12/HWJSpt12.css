@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrap{
+    position: absolute;
+    width: 1500px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-image: url("img/image.jpg");
+    background-repeat: repeat;
+}
+.post{
+    width: 250px;
+    margin: 20px 10px;
+    background: aliceblue;
+    cursor: pointer;
+    padding: 5px;
+    text-align: center;
+    color: black;
+}
+.post:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    background: deepskyblue;
+    color: white;
+}
