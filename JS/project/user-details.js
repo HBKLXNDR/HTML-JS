@@ -58,22 +58,12 @@ postDetailsButton.onclick = function (){
 //     `
 //     usersDetailsContainer.appendChild(divCreator)
 // }
-// // console.log(parseElements);
-
-
-
-
 
 // divCreator.innerHTML = `
 // //                                     <h3>userID - ${post.userId} <h3>
 // //                                     <h3>ID - ${post.id}</h3>
 // //                                     <p> <strong>Title</strong> - ${post.title} </p>
 // //                                     <p> <strong>Body</strong> - ${post.body}</p>`
-
-
-
-
-
 
 // document.cookie = 'name=kokos';
 // document.cookie = 'surname=kokosov';
@@ -86,4 +76,3 @@ postDetailsButton.onclick = function (){
 //     const cookie = cookies[i].split(/=/);
 //     obj[cookie[0]] = cookie[1];
 // }
-// console.log(obj);
