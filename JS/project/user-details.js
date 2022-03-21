@@ -1,13 +1,15 @@
 let url = new URL(location.href);
 let parseElements = JSON.parse(url.searchParams.get('data'));
 
+
 function someFunction(items){
-    for (const item of items) {
-        if (typeof items[item] !== "object"){
-            let itemContainer = document.createElement('div');
+    for (let item in items) {
+        if (typeof items[item] !== 'object'){
+            let itemContainer = document.createElement('li');
             itemContainer.innerText = items[item];
-            itemContainer.classList.add("block");
-            document.body.appendChild(itemContainer);
+            itemContainer.classList.add("lItem")
+            let uList = document.getElementsByClassName('u-list')[0];
+            uList.appendChild(itemContainer);
         }   else if (typeof items[item]=== "object") {
             someFunction(items[item])
         }

@@ -1,9 +1,21 @@
 let url = new URL(location.href);
 let post = JSON.parse(url.searchParams.get('data'));
-console.log(post);
-
 let postContainer = document.getElementsByClassName('post')[0];
-postContainer.innerText = JSON.stringify(post);
+
+function someFunction(items){
+    for (let item in items) {
+        if (typeof items[item] !== 'object'){
+            let itemContainer = document.createElement('li');
+            itemContainer.innerText = items[item];
+            itemContainer.classList.add("lItem")
+            let uList = document.getElementsByClassName('u-list')[0];
+            uList.appendChild(itemContainer);
+        }   else if (typeof items[item]=== "object") {
+            someFunction(items[item])
+        }
+    }
+}
+someFunction(post);
 
 let commentsContainer = document.getElementsByClassName('comments')[0];
 fetch(`https://jsonplaceholder.typicode.com/posts/${post.id}/comments`)
