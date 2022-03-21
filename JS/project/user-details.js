@@ -1,11 +1,24 @@
 let url = new URL(location.href);
 let parseElements = JSON.parse(url.searchParams.get('data'));
 
+function someFunction(items){
+    for (const item of items) {
+        if (typeof items[item] !== "object"){
+            let itemContainer = document.createElement('div');
+            itemContainer.innerText = items[item];
+            itemContainer.classList.add("block");
+            document.body.appendChild(itemContainer);
+        }   else if (typeof items[item]=== "object") {
+            someFunction(items[item])
+        }
+    }
+}
+
 let userDetailsContainer = document.getElementsByClassName('user-details')[0];
 let postsContainer = document.getElementsByClassName('posts')[0];
 let postDetailsButton = document.getElementsByClassName('postDetailsButton')[0];
-userDetailsContainer.innerText = `${JSON.stringify(parseElements)}`
-
+// userDetailsContainer.innerText = `${JSON.stringify(parseElements)}`
+someFunction(parseElements)
 
 postDetailsButton.onclick = function (){
     this.disabled = true;
