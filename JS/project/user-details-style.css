@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+.postsContainer{
+    background: gray;
+}
+
+.postDetailsButton{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+.posts{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post{
+    background: chocolate;
+    width: 100px;
+    margin: 3px calc(10% - 50px);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
